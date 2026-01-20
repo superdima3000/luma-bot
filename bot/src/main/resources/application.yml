@@ -1,0 +1,28 @@
+server:
+  port: 8083
+
+telegram:
+  bot:
+    token: "8481042897:AAHAK7m0-7H9mwiXPFT6YGRAQMy0izD71bg"
+    username: "Luma"
+
+logging:
+  level:
+    org.example.bot: DEBUG
+    org.telegram: INFO
+    org.springframework: INFO
+
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+
+  file:
+    name: log/bot.log
+    path: log/
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: superdima3000
+    password: Sh_lM2110

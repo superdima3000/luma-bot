@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'myApp'
+include 'bot'
+include 'api'
+include 'common-rabbitmq'
+include 'node'
+include 'common-jpa'
+include 'http'
+include 'image-editor'

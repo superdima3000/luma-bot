@@ -1,0 +1,11 @@
+21:47:12.260 [Test worker] INFO  org.example.bot.BotApplicationTests - Starting BotApplicationTests using Java 23 with PID 16144 (started by d in D:\jprojects\myApp\bot)
+21:47:12.287 [Test worker] DEBUG org.example.bot.BotApplicationTests - Running with Spring Boot v3.5.3, Spring v6.2.8
+21:47:12.289 [Test worker] INFO  org.example.bot.BotApplicationTests - No active profile set, falling back to 1 default profile: "default"
+21:47:19.460 [Test worker] INFO  o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+21:47:21.095 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+21:47:21.340 [Test worker] INFO  o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1a21f43f:0/SimpleConnection@37806be6 [delegate=amqp://superdima3000@127.0.0.1:5672/, localPort=13199]
+21:47:21.827 [Test worker] INFO  org.example.bot.BotApplicationTests - Started BotApplicationTests in 10.488 seconds (process running for 13.471)
+21:47:23.045 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+21:47:23.048 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Waiting for workers to finish.
+21:47:23.794 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+21:47:23.809 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  o.s.a.r.l.SimpleMessageListenerContainer - Successfully waited for workers to finish.

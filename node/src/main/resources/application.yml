@@ -1,0 +1,39 @@
+server:
+  port: 8085
+
+logging:
+  level:
+    org.example.node: DEBUG
+    org.telegram: INFO
+    org.springframework: INFO
+
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+
+  file:
+    name: log/node.log
+    path: log/
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: superdima3000
+    password: Sh_lM2110
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shop
+    username: superdima3000
+    password: Sh_lM2110
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: false
+        show_sql: false
+
+my:
+  password: "navalny1337"

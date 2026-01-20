@@ -1,0 +1,19 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: clothing-store-api
+    profiles:
+      active: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shop
+    username: superdima3000
+    password: Sh_lM2110
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true

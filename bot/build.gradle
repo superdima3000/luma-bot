@@ -1,0 +1,13 @@
+
+dependencies {
+    implementation('org.telegram:telegrambots:6.8.0') {
+        exclude group: 'org.slf4j', module: 'slf4j-simple'
+    }
+
+    implementation('org.telegram:telegrambots-spring-boot-starter:6.8.0') {
+        exclude group: 'org.slf4j', module: 'slf4j-simple'
+    }
+    implementation(project(":common-rabbitmq"))
+    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+    implementation(project(":http"))
+}
